@@ -1,0 +1,146 @@
+body{
+    font-family: 'Saira', sans-serif;
+    background-color: black;
+}
+
+
+/*This is mobile*/
+.background img{
+    max-height: 600px;
+    overflow: hidden;
+}
+
+
+.social img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social h1{
+    text-align: center;
+    color: #689674;
+}
+.social p{
+    color: #689674;
+}
+.social li{
+    list-style: none;
+    display: inline;
+    color: #689674;
+    font-size: 40px;
+}
+
+
+.navigatorwrapper{
+    background-color: #5d5c61;
+}
+.navigator li{
+    list-style: none;
+    font-size: 15px;
+    padding-right: 55px;
+    display: inline;
+}
+.navigator a{
+    color: black;
+    display: inline;
+}
+
+
+.infowrapper{
+    background-color: #7496ad;
+}
+
+
+.projectswrapper{
+    background-color: #567a94;
+}
+.projects a{
+    style: none;
+    color: black;
+}
+
+
+.contactwrapper{
+    background-color: #5d5c61;
+}
+.contact{
+    list-style: none;
+    display: inline;
+}
+
+
+.bottomlinks{
+    background-color: #5d5c61;
+    list-style: none;
+}
+
+
+
+/*This is desktop*/
+@media (min-width: 1200px) {
+    .background{
+        max-height: 690px;
+        overflow: hidden;
+    }
+
+
+    .social img{
+        width: 60px;
+        height: 60px;
+        position: relative;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social h1{
+        text-align: center;
+        color: #689674;
+    }
+    .social p{
+        color: #689674;
+    }
+    .social li{
+        list-style: none;
+        display: inline;
+        color: #689674;
+        font-size: 40px;
+    }
+
+
+    .navigatorwrapper{
+        background-color: #c74a3c;
+    }
+    .navigator li{
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        display: inline;
+        padding-right: 150px;
+        
+    }
+
+
+    .infowrapper{
+        background-color: #a13127;
+    }
+
+
+    .projectswrapper{
+        background-color: #8f6f63;
+    }
+
+
+    .contactwrapper{
+        background-color: #a13127;
+    }
+
+
+    .contact{
+        list-style: none;
+        display: inline;
+    }
+}
