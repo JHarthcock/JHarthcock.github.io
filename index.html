@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang= "en">
     <head>
-        <title>Justin Harthcock</title>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Justin Harthcock</title>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
+    
+    
+    
     <body>
-        <header class="desktop">
-            <div class="header-wrapper">
+        <!--This will be the background image for the top of the website.-->
+        <header class="backgroundwrapper">
+            <div class="background">
                 <img src="images/coding.jpg" alt="Code" class="img-responsive"> <!--This is image responsive so it will automatically adjust to the size you're viewing it on.-->
             </div>
-            <div class="headshot-container">
-                <div class="row">
-                    <div class=" col-sm-12">
-                        <img src="images/headshot.jpg" alt="Me" class="headshot-img-responsive">
-                            <h1>Justin Harthcock</h1>
-                            <p>Junior Developer</p>
-                            <ul>
-                                <li><i class="fab fa-linkedin"></i></li>
-                                <li><i class="fab fa-github-square"></i></li>   
-                            </ul>
+
+
+
+            <!--This contains my headshot and "Justin Harthcock, Junior Developer".-->
+            <div class="socialwrapper">
+                <div class="social">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-sm-12">
+                                <img src="images/headshot.jpg" alt="Me">
+                                <h1>Justin Harthcock</h1>
+                                <p>Junior Developer</p>
+                                <ul>
+                                    <li><i class="fab fa-linkedin"></i></li>
+                                    <li><i class="fab fa-github-square"></i></li>   
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
+
+
+
+        <!--This is the navigation bar, it's used to easily get to each section of the website.-->
         <div class="navigatorwrapper">
             <div class="navigator">
                 <div class="conatiner">
@@ -36,76 +53,94 @@
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#projects">Projects</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                           </ul>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-           
+
+
+
+        <!--This is information about me along with my resume.-->
         <div class="infowrapper">
             <div class="info">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <h2 =id"about">About Me</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dignissimos repellat non corrupti obcaecati reprehenderit placeat quae unde asperiores amet!</p>
-                            <a href="#">Download Resume</a>
+                            <p>I am a junior developer, I am currently in the MS Coding Academy. I graduated from Brandon High School in May 2018. Several of my hobbies include theatre, showchoir, gaming, and creating.</p>
+                            <a href="#">Resume</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="project container">
-            <div class="p1 row">
-                <div class="col-sm-6">
-                    <img src="images/Pizza.png" width=350 height=200>
-                </div>
-                <div class="col-sm-6">
-                    <h3 =id"projects">Project1</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quisquam expedita dicta a aspernatur velit ipsa nesciunt qui culpa molestias.
-                    <a href="#">View Project</a>
-                </div>
-            </div>
-            <div class="p2 row">
-                <div class="col-sm-6">
-                    <img src="images/Detroix.png" width=350 height=200>
-                </div>
-                <div class="col-sm-6">
-                    <h3>Project2</h3>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto assumenda tempore facere iste reprehenderit aperiam mollitia debitis expedita dolorem magnam?
-                    <a href="#">View Project</a>
-                </div>
-            </div>
-            <div class="p3 row">
-                <div class="col-sm-6">
-                    <img src="images/Venedor.png" width=350 height=200>
-                </div>
-                <div class="col-sm-6">
-                    <h3>Project3</h3>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo est doloremque! Neque, laudantium tempora nobis quis quisquam unde dicta?
-                    <a href="#">View Project</a>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="bottom row">
-                <div class="col-sm-12">
-                    <h3 =id"contact">CONTACT</h3>
-                    <p>GET IN TOUCH</p>
-                    <p><i class="fas fa-home"></i>address</p>
-                    <p><i class="fas fa-phone"></i>601-899-2716</p>
-                    <p><i class="fas fa-envelope"></i>harthcockbusiness@gmail.com</p>
+
+
+
+        <!--These are 3 projects I've done with a image, description, and link to it.-->
+        <div class="projectswrapper">
+            <div class="projects">
+                <div class="container">
+                    <div class="col-sm-6">
+                        <img src="images/Pizza.png" width=300 height=200>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3 =id"projects">Calculator</h3>
+                        <p>This is a calculator that I made.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                        <div class="col-sm-6">
+                            <img src="images/Detroix.png" width=300 height=200>
+                            <h3>Detroix</h3>
+                            <p>This is a website I made.</p>
+                            <a href="#">View Project</a>
+                        </div>
+                    <div class="p3 row">
+                        <div class="col-sm-6">
+                            <img src="images/Venedor.png" width=300 height=200>
+                        </div>
+                        <div class="col-sm-6">
+                            <h3>Venedor</h3>
+                            This is a website I made.
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="bottomlinks container">
-            <div class="col-sm-12">
-                <ul> 
-                    <li https://github.com/JHarthcock><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-github-square"></i></li>
-                </ul>
+
+
+
+        <!--This is my contact information which includes: Work address, my phone number, and email.-->
+        <div class="contactwrapper">
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 =id"contact">CONTACT</h3>
+                            <p>GET IN TOUCH</p>
+                            <p><i class="fas fa-home"></i>121 N State St Suite 500, Jackson, MS 39201</p>
+                            <p><i class="fas fa-phone"></i>601-899-2716</p>
+                            <p><i class="fas fa-envelope"></i>harthcockbusiness@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomlinkswrapper">
+            <div class="bottomlinks">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul>
+                                <li><i class="fab fa-linkedin"></i></li>
+                                <li><i class="fab fa-github-square"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
-</html>
