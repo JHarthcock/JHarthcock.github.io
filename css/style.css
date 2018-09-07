@@ -5,47 +5,58 @@ body{
 
 
 /*This is mobile*/
-.background img{
-    max-height: 600px;
-    overflow: hidden;
-}
 
-
-.social img{
-    width: 60px;
-    height: 60px;
-    position: relative;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.social h1{
+.social {
     text-align: center;
-    color: #689674;
+    position: relative;
+    overflow: hidden;
+    max-height: 400px;
 }
-.social p{
-    color: #689674;
+
+.social-inner {
+    color: white;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.social li{
-    list-style: none;
+.social-inner img {
+    border-radius: 50%;
+    width: 75px;
+}
+.social-inner h1 {
+    font-size: 18px;
+    margin-top: 2px;
+}
+.social-inner p {
+    font-size: 10px;
+}
+.social-inner ul {
+    padding-left: 0;
+}
+.social-inner li {
     display: inline;
-    color: #689674;
-    font-size: 40px;
 }
 
 
-.navigatorwrapper{
+.nav-wrapper {
     background-color: #5d5c61;
 }
-.navigator li{
-    list-style: none;
-    font-size: 15px;
-    padding-right: 55px;
-    display: inline;
+.nav {
+    text-align: center;
 }
-.navigator a{
-    color: black;
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav ul {
+    padding-left: 0;
+}
+.nav li {
     display: inline;
+    list-style: none;
 }
 
 
@@ -62,6 +73,9 @@ body{
     color: black;
 }
 
+.right-display {
+    height: 100px;
+}
 
 .contactwrapper{
     background-color: #5d5c61;
@@ -77,70 +91,18 @@ body{
     list-style: none;
 }
 
-
-
-/*This is desktop*/
-@media (min-width: 1200px) {
-    .background{
-        max-height: 690px;
-        overflow: hidden;
+@media(min-width: 768px) {
+    .right-display {
+        height: 180px;
     }
-
-
-    .social img{
-        width: 60px;
-        height: 60px;
-        position: relative;
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
+}
+@media(min-width: 992px) {
+    .right-display {
+        height: 240px;
     }
-    .social h1{
-        text-align: center;
-        color: #689674;
-    }
-    .social p{
-        color: #689674;
-    }
-    .social li{
-        list-style: none;
-        display: inline;
-        color: #689674;
-        font-size: 40px;
-    }
-
-
-    .navigatorwrapper{
-        background-color: #c74a3c;
-    }
-    .navigator li{
-        list-style: none;
-        font-size: 20px;
-        text-align: center;
-        color: black;
-        display: inline;
-        padding-right: 150px;
-        
-    }
-
-
-    .infowrapper{
-        background-color: #a13127;
-    }
-
-
-    .projectswrapper{
-        background-color: #8f6f63;
-    }
-
-
-    .contactwrapper{
-        background-color: #a13127;
-    }
-
-
-    .contact{
-        list-style: none;
-        display: inline;
+}
+@media(min-width: 1200px) {
+    .right-display {
+        height: 290px;
     }
 }
