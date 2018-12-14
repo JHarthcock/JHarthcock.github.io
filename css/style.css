@@ -68,6 +68,15 @@ body{
 .projectswrapper{
     background-color: #567a94;
 }
+.projectswrapper h2{
+    text-align: center;
+    color: black;
+}
+.projectswrapper h3{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
 .projects a{
     style: none;
     color: black;
