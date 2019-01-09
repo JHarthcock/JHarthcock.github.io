@@ -39,6 +39,11 @@ body{
 .social-inner li {
     display: inline;
 }
+.social-inner a{
+    font-size: 40px;
+    margin-right: 10px;
+    color: white;
+}
 
 
 .nav-wrapper {
@@ -50,6 +55,7 @@ body{
 .nav a {
     color: white;
     text-decoration: none;
+    margin-right:60px;
 }
 .nav ul {
     padding-left: 0;
