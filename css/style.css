@@ -69,6 +69,11 @@ body{
 .infowrapper{
     background-color: #7496ad;
 }
+.infowrapper a{
+    background-color: black;
+    color: white;
+    list-style: none;
+}
 
 
 .projectswrapper{
